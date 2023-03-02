@@ -1,0 +1,160 @@
+html {
+  background-image: linear-gradient(to bottom right, #593f62, #a5c4d4);
+  overflow: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: auto;
+  min-height: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #d8e1e6;
+}
+
+body {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  margin-left: auto;
+  list-style-type: none;
+}
+table {
+  width: 90%;
+}
+
+tr td {
+  width: 50%;
+}
+
+li {
+  margin: 10px 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 170px;
+  width: 40px;
+  background-color: #ddd;
+  transform: rotate(180deg);
+}
+
+.wrapper {
+  display: flex;
+  margin: 10px;
+  justify-content: center;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 40px;
+  color: white;
+  transform: rotate(180deg);
+  padding: 5%;
+}
+
+.html {
+  height: 15%;
+  background-color: #bd1e1e;
+}
+.css {
+  height: 10%;
+  background-color: #bd1e1e;
+}
+.js {
+  height: 15%;
+  background-color: #bd1e1e;
+}
+.gitara {
+  height: 20%;
+  background-color: #bd1e1e;
+}
+.finance {
+  height: 90%;
+  background-color: #46ac1e;
+}
+.colistenika {
+  height: 60%;
+  background-color: #689e21;
+}
+.print {
+  height: 100%;
+  background-color: #4c9935;
+}
+
+.icon {
+  display: grid;
+  align-items: end;
+  margin-left: 20px;
+  margin-right: 10px;
+  text-align: center;
+}
+.contactIco {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#myFoto {
+  width: 10%;
+  height: 10%;
+  border-radius: 20%;
+}
+#pandaFoto {
+  width: 20%;
+}
+img {
+  padding: 10px;
+}
+
+.projects {
+  display: table;
+  margin: auto;
+  width: 90%;
+  justify-content: center;
+}
+
+h2 {
+  margin: 10px;
+  text-align: center;
+}
+
+.scale {
+  transition: 1s;
+}
+.scale:hover {
+  transform: scale(1.1);
+}
+#information {
+  display: flex;
+  margin: 10px;
+}
+#textForMe {
+  margin: 20px;
+  width: 100%;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+.navitionList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navitionList li {
+  margin: 0;
+}
+a,
+a.text:active {
+  text-decoration: none;
+  color: #d8e1e6;
+}
+a.text:hover {
+  color: #8499b1;
+}
